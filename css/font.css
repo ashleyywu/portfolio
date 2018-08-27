@@ -1,0 +1,33 @@
+@font-face {
+	font-family: 'Heebo';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/Heebo-Regular.eot');
+	src: url('../font/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Heebo-Regular.woff2') format('woff2'),
+		 url('../font/Heebo-Regular.woff') format('woff'),
+		 url('../font/Heebo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'Heebo';
+	font-weight: bold;
+	font-style: normal;
+	src: url('../font/Heebo-Bold.eot');
+	src: url('../font/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+		 url('../font/Heebo-Bold.woff2') format('woff2'),
+		 url('../font/Heebo-Bold.woff') format('woff'),
+		 url('../font/Heebo-Bold.ttf') format('truetype');
+}
+
+
+@font-face{
+	font-family: 'LibreBaskerville';
+	font-weight: normal;
+	font-style: normal;
+	src: url('../font/LibreBaskerville.eot');
+	src: url('../font/LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
+		 url('../font/LibreBaskerville-Regular.woff2') format('woff2'),
+		 url('../font/LibreBaskerville-Regular.woff') format('woff'),
+		 url('../font/LibreBaskerville-Regular.ttf') format('truetype');
+}
