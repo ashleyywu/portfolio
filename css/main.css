@@ -329,10 +329,10 @@ figcaption{
   grid-template-columns: 25% 25% 25% 25%;
   grid-row-gap: 1px;
 }
-
+/*
 .grid-col-2-inverse {
   grid-template-column
-}
+} */
 
 .left-30 {
   grid-column: 1/2;
