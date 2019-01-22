@@ -20,36 +20,13 @@
 		 url('../font/Heebo-Bold.ttf') format('truetype');
 }
 
-
-@font-face{
-	font-family: 'LibreBaskerville';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../font/LibreBaskerville.eot');
-	src: url('../font/LibreBaskerville-Regular.eot?#iefix') format('embedded-opentype'),
-		 url('../font/LibreBaskerville-Regular.woff2') format('woff2'),
-		 url('../font/LibreBaskerville-Regular.woff') format('woff'),
-		 url('../font/LibreBaskerville-Regular.ttf') format('truetype');
-}
-
 @font-face {
 	font-family: 'Pier Sans';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../font/PierSans-Regular.eot');
+	src: url('../font/PierSans-Regular.otf');
 	src: url('../font/PierSans-Regular.eot?#iefix') format('embedded-opentype'),
 		 url('../font/PierSans-Regular.woff2') format('woff2'),
 		 url('../font/PierSans-Regular.woff') format('woff'),
 		 url('../font/PierSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-	font-family: 'Manrope';
-	font-weight: normal;
-	font-style: normal;
-	src: url('../font/regular.eot');
-	src: url('../font/regular.eot?#iefix') format('embedded-opentype'),
-		 url('../font/regular.woff2') format('woff2'),
-		 url('../font/regular.woff') format('woff'),
-		 url('../font/regular.ttf') format('truetype');
 }
