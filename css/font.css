@@ -2,22 +2,22 @@
 	font-family: 'Heebo';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../font/Heebo-Regular.eot');
-	src: url('../font/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
+	src: url('../font/Heebo-Regular.ttf');
+	/* src: url('../font/Heebo-Regular.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Heebo-Regular.woff2') format('woff2'),
 		 url('../font/Heebo-Regular.woff') format('woff'),
-		 url('../font/Heebo-Regular.ttf') format('truetype');
+		 url('../font/Heebo-Regular.ttf') format('truetype'); */
 }
 
 @font-face {
 	font-family: 'Heebo';
 	font-weight: bold;
 	font-style: normal;
-	src: url('../font/Heebo-Bold.eot');
-	src: url('../font/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
+	src: url('../font/Heebo-Bold.ttf');
+	/* src: url('../font/Heebo-Bold.eot?#iefix') format('embedded-opentype'),
 		 url('../font/Heebo-Bold.woff2') format('woff2'),
 		 url('../font/Heebo-Bold.woff') format('woff'),
-		 url('../font/Heebo-Bold.ttf') format('truetype');
+		 url('../font/Heebo-Bold.ttf') format('truetype'); */
 }
 
 
@@ -36,11 +36,11 @@
 	font-family: 'Pier Sans';
 	font-weight: normal;
 	font-style: normal;
-	src: url('../font/PierSans-Regular.eot');
-	src: url('../font/PierSans-Regular.eot?#iefix') format('embedded-opentype'),
+	src: url('../font/PierSans-Regular.otf');
+	/* src: url('../font/PierSans-Regular.eot?#iefix') format('embedded-opentype'),
 		 url('../font/PierSans-Regular.woff2') format('woff2'),
 		 url('../font/PierSans-Regular.woff') format('woff'),
-		 url('../font/PierSans-Regular.ttf') format('truetype');
+		 url('../font/PierSans-Regular.ttf') format('truetype'); */
 }
 
 @font-face {
