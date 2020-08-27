@@ -178,10 +178,10 @@ mark{
 .logo{
   width:70px;
   height:70px;
-/*  display: block;
-  margin-right: auto;*/
-  flex-direction: row;
-  align-items: flex-start;
+  display: block;
+  margin-right: auto;
+/*  flex-direction: row;
+  align-items: flex-start;*/
 }
 
 .placeholder{
