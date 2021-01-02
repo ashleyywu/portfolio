@@ -262,7 +262,7 @@ mark{
 
 .workdisclaimer{
   font-family: 'Inter', sans-serif;
-  padding: 1.5em 0 0 0;
+  padding: 1em 0 0 0;
 }
 
 .workdisclaimer p{
@@ -270,6 +270,7 @@ mark{
   display:inline;
   opacity: 80%;
   color: #2B12ED;
+  font-size: 0.8em;
 }
 
 .divider{
@@ -390,7 +391,7 @@ mark{
 
 .second-container{
   display: flex;
-  padding: 4em 0 7em 0;
+  padding: 6em 0 7em 0;
   justify-content: center;
 }
 
