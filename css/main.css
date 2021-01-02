@@ -254,6 +254,7 @@ mark{
 
 .home p{
   font-family: 'Lora', serif;
+  display:inline;
 }
 
 .divider{
