@@ -237,7 +237,7 @@ mark{
 }
 
 .home{
-  width: 90%;
+  width: 75%;
   align-self: center;
   text-align: left;
 }
@@ -252,9 +252,73 @@ mark{
   color: #2B12ED;
 }
 
+
 .home p{
   font-family: 'Lora', serif;
   display:inline;
+  opacity: 80%;
+  color: #2B12ED;
+}
+
+.workdisclaimer{
+  font-family: 'Inter', sans-serif;
+  padding: 1.5em 0 0 0;
+}
+
+.workdisclaimer p{
+  font-family: 'Inter', sans-serif;
+  display:inline;
+  opacity: 80%;
+  color: #2B12ED;
+}
+
+.divider{
+  font-size: 1em;
+  display:inline;
+  padding: 0.5em;
+}
+
+.divider h1{
+  font-family: 'Inter', sans-serif;
+  color: #2B12ED;
+  font-weight : 200;
+}
+
+.divider h2{
+  font-family: 'Inter', sans-serif;
+  color: #2B12ED;
+  font-weight : 200;
+}
+
+.morework{
+  width: 75%;
+  align-self: center;
+  text-align: left;
+}
+
+.morework h2{
+  font-size: 1.5em;
+  font-family: 'Inter', sans-serif;
+  display:inline;
+  opacity: 80%;
+}
+
+.morework h2:hover{
+  color: #2B12ED;
+}
+
+.morework p{
+  font-family: 'Lora', serif;
+  opacity: 80%;
+}
+
+
+.morework img{
+  width:80%;
+  height:auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .divider{
@@ -319,7 +383,14 @@ mark{
 
 .hero-container{
   display: flex;
-  height: 100vh;
+  padding-top: 7em;
+  /*height: 100vh;*/
+  justify-content: center;
+}
+
+.second-container{
+  display: flex;
+  padding: 4em 0 7em 0;
   justify-content: center;
 }
 
@@ -535,6 +606,9 @@ mark{
   }
   .footer-text-right p{
     text-align: left;
+  }
+  .second-container{
+    padding: 3em 0 7em 0;
   }
 }
 
