@@ -382,6 +382,31 @@ mark{
   opacity: 63%;
 }
 
+.pills {
+  padding-right: 10em;
+}
+
+.clients p{
+  color: #333333;
+}
+
+.button {
+  background-color: #d4c2fd;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button:hover {
+  background-color: #eeeeee;
+}
+
 .hero-container{
   display: flex;
   padding-top: 7em;
@@ -391,7 +416,13 @@ mark{
 
 .second-container{
   display: flex;
-  padding: 4em 0 7em 0;
+  padding: 1em 0 4em 0;
+  justify-content: center;
+}
+
+.client-container{
+  display: flex;
+  padding: 0 0 5em 0;
   justify-content: center;
 }
 
@@ -609,7 +640,10 @@ mark{
     text-align: left;
   }
   .second-container{
-    padding: 3em 0 7em 0;
+    padding: 3em 0 3em 0;
+  }
+  .client-container{
+    padding: 2em 0 7em 0;
   }
 }
 
