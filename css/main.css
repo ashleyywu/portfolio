@@ -422,7 +422,7 @@ mark{
 
 .client-container{
   display: flex;
-  padding: 0 0 5em 0;
+  padding: 0.5em 0 5em 0;
   justify-content: center;
 }
 
