@@ -237,40 +237,33 @@ mark{
 }
 
 .home{
-  width: 75%;
+  width: 70%;
   align-self: center;
   text-align: left;
 }
 
 .home h1{
-  font-size: 5em;
+  font-size: 2em;
   font-family: 'Lora', serif;
   display:inline;
+  padding-bottom: 2em;
 }
-
-.home h1:hover{
-  color: #2B12ED;
-}
-
 
 .home p{
+  font-family: 'Inter', sans-serif;
+  font-style: italic;
+  opacity: 80%;
+  color: #2B12ED;
+  padding-top: 1em;
+}
+
+.name{
   font-family: 'Lora', serif;
-  display:inline;
-  opacity: 80%;
-  color: #2B12ED;
+  text-decoration: underline;
 }
 
-.workdisclaimer{
-  font-family: 'Inter', sans-serif;
-  padding: 1em 0 0 0;
-}
-
-.workdisclaimer p{
-  font-family: 'Inter', sans-serif;
-  display:inline;
-  opacity: 80%;
-  color: #2B12ED;
-  font-size: 0.8em;
+.name:hover{
+    color: #2B12ED;
 }
 
 .divider{
@@ -356,61 +349,58 @@ mark{
 }
 
 .description{
-  font-size: 0.7em;
+  font-size: 0.6em;
   font-family: 'Inter', sans-serif;
-  color:#0500FF;
+  color:#2B12ED;
+  font-weight: bold;
+  font-style: italic;
 }
 
 .description-text{
   font-family: 'Inter', sans-serif;
-  font-size: 0.7em;
-  color:#0500FF;
-  font-weight: bold;
+  font-size: 0.8em;
+  color:#3A3A48;
+  font-weight: 600;
+  text-decoration: underline;
+  padding-bottom:0.3em;
 }
 
 .description-role{
   font-family: 'Inter', sans-serif;
-  font-size: 0.7em;
+  font-size: 0.8em;
   color: #3A3A48;
 }
 
-.about-project{
-  font-size: 0.8em;
-}
-
-.disclaimer{
-  opacity: 63%;
-}
-
-.pills {
-  padding-right: 10em;
-}
-
-.clients p{
-  color: #333333;
+.about-project {
+  font-size: 0.5em;
 }
 
 .button {
-  background-color: #d4c2fd;
-  border: none;
-  color: black;
-  padding: 10px 20px;
+  font-family: 'Inter', sans-serif;
+  background-color: white;
+  border: 2px solid;
+  border-color: #2B12ED;
+  color: #2B12ED;
+  padding: 1em 2em;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  margin: 4px 2px;
+  margin: 0 auto;
+  display: block;
   cursor: pointer;
-  border-radius: 16px;
+  border-radius: 30px;
+  font-size: 1em;
 }
 
 .button:hover {
-  background-color: #eeeeee;
+  background-color: #2B12ED;
+  color:white;
 }
+
 
 .hero-container{
   display: flex;
-  padding-top: 7em;
-  /*height: 100vh;*/
+  padding-top: 0em;
+  height: 100vh;
   justify-content: center;
 }
 
@@ -434,33 +424,137 @@ mark{
 
 .work-container {
   display: flex;
-  width: 50%;
+  width: 75%;
   justify-content: center;
   margin: auto;
   flex-wrap: wrap;
-  padding: 0 0 10em 0;
+  padding: 0 2em 10em 2em;
 }
 
 .work-example-container {
-  width: 50%;
-  padding: 10em 1em 1em 1em;
+  width: 25%;
+  padding: 2em 1em 1em 1em;
 }
 
 .work-example-container h1{
-  font-family: 'Inter', sans-serif;
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
 }
 
 .work-example-container p{
   font-family: 'Inter', sans-serif;
   font-size: 0.8em;
-}
-
-.work-example-container img{
   opacity: 0.8;
 }
 
-.work-example-container img:hover{
+.work-example-container img{
   opacity: 1.0;
+  padding: 0 0 1em 0;
+}
+
+.work-example-container img:hover{
+  opacity: 0.8;
+}
+
+.second-work-container {
+  display: flex;
+  width: 70%;
+  justify-content: center;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 0 2em 8em 2em;
+}
+
+.second-work-example-container {
+  width: 50%;
+  padding: 2em 1em 2em 2em;
+}
+
+.second-work-example-container h1{
+  font-family: 'Lora', serif;
+  font-size: 1.2em;
+}
+
+.second-work-example-container p{
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9em;
+}
+
+.second-work-example-container img{
+  opacity: 1.0;
+}
+
+.second-work-example-container img:hover{
+  opacity: 0.5;
+}
+
+.group-section{
+  padding-top: 2em;
+  height: 100vh;
+  justify-content: center;
+}
+
+.header-container{
+  width: 50%;
+  margin: auto;
+  padding: 0 2em 2em 2em;
+}
+
+.header-container h1{
+  font-family: 'Lora', serif;
+  font-size: 1.7em;
+  font-weight:600;
+  text-align: center;
+  text-decoration: underline;
+}
+.footer-container{
+  padding: 4em 2em 8em 2em;
+}
+
+.footer-container h1{
+  font-family: 'Lora', serif;
+  font-size: 1.7em;
+  font-weight:600;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.footer-container h2{
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  font-weight:600;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 4em;
+}
+
+.footer-container img{
+  width: 50%;
+  height: auto;
+}
+
+.work-header-container{
+  display: flex;
+  width: 70%;
+  margin: auto;
+  flex-wrap: wrap;
+  padding: 10em 2em 5em 2em;
+  justify-content: center;
+}
+
+.work-header-container h1{
+  font-family: 'Lora', serif;
+  font-size: 1.7em;
+  font-weight:600;
+  text-align: center;
+  text-decoration: underline;
+  padding-top: 0em;
+}
+
+
+.middle{
+  text-align: center;
+  padding: 1em 0 0.8em 0;
 }
 
 .footer{
@@ -594,13 +688,21 @@ mark{
   justify-content: space-between;
 }
 
+@media (max-width: 1290px) {
+  .work-example-container {
+    width: 50%;
+  }
+  .footer-container img{
+    width: 80%;
+    height: auto;
+  }
+}
+
 @media (min-width: 950px) {
   .content {
     width: 60%;
   }
-  /*.hero-container img{
-     width: 75%;
-  }*/
+
   .home h1{
     font-size: 5em;
   }
@@ -612,11 +714,19 @@ mark{
   }
 }
 
+@media (max-width:1117px){
+  .second-work-example-container{
+    width: 100%;
+  }
+
 @media (max-width:950px){
   .placeholder-flex{
     flex-direction: column;
   }
   .work-example-container{
+    width: 100%;
+  }
+  .second-work-example-container{
     width: 100%;
   }
   .content{
@@ -626,6 +736,11 @@ mark{
     font-size: 4em;
   }
 }
+
+@media (max-width:934px){
+  .work-example-container{
+    width: 50%;
+  }
 
 @media (max-width:900px){
   .template{
@@ -640,10 +755,13 @@ mark{
     text-align: left;
   }
   .second-container{
-    padding: 3em 0 3em 0;
+    padding: 3em 0 0 0;
   }
   .client-container{
     padding: 2em 0 7em 0;
+  }
+  .work-example-container {
+    width: 50%;
   }
 }
 
@@ -669,12 +787,18 @@ mark{
   .home h1{
     font-size: 3.2em;
   }
+
+  .work-example-container {
+    width: 100%;
+  }
+
 }
 
 @media (max-width:550px) {
   .home h1{
     font-size: 2.7em;
   }
+
 }
 
 @media (max-width:500px) {
